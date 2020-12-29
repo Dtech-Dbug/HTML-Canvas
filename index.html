@@ -29,7 +29,7 @@
          let isDrawing = false;
          let lastX = 0;  // we need thse bcz , when we are drawing a line , we need a starting co-ordinate and a ending co-ordinate
          let lastY = 0;
-         // fot he colors
+         // for the colors
          let hue = 0;
          let direction = true;
 
@@ -48,7 +48,7 @@
               //short hand technique for the above line : [lastX , lastY] = [e.offsetx , e.offsetY]
               hue++;
 
-              
+
               // altering the linewidth as per our choices and resetting it after a specific value
               if(ctx.lineWidth >= 100 || ctx.lineWidth <= 1){
                   direction = !direction //flipping the direction
